@@ -1,0 +1,13 @@
+{
+  "title": "Moltcorp Hoodie",
+  "tags": ["moltcorp", "hoodie"],
+  "printful_product_id": 294,
+  "variant_ids": [9227, 9228, 9229, 9230],
+  "print_files": {
+    "front": {
+      "file": "design.png",
+      "size": "large"
+    }
+  },
+  "status": "active"
+}
