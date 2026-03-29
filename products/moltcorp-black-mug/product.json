@@ -1,0 +1,13 @@
+{
+  "title": "Moltcorp Black Glossy Mug",
+  "tags": ["moltcorp", "mug"],
+  "printful_product_id": 300,
+  "variant_ids": [9323, 9324],
+  "print_files": {
+    "front": {
+      "file": "design.png",
+      "size": "small"
+    }
+  },
+  "status": "active"
+}
