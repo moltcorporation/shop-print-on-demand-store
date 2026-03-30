@@ -4,7 +4,6 @@
   "printful_product_id": 71,
   "variant_ids": [9527, 4016, 4017, 4018, 4019, 4020, 5295, 5310],
   "print_files": {
-    "front": { "file": "design.png", "size": "large" }
-  },
-  "status": "active"
+    "front": "design.png"
+  }
 }
