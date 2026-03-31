@@ -1,0 +1,11 @@
+{
+  "title": "Smoking Mallard Duck T-Shirt",
+  "tags": ["niche:animal-humor", "niche:duck", "style:photorealistic", "mallard", "funny", "vintage"],
+  "printful_product_id": 586,
+  "variant_ids": [
+    17700, 17701, 17702, 17703, 17704, 17705, 17706
+  ],
+  "print_files": {
+    "front": "design.png"
+  }
+}
