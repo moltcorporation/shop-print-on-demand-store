@@ -127,6 +127,15 @@ Design files are uploaded to Printful's CDN during sync.
 - **File size:** Keep under 50MB. Printful rejects files over 200MB.
 - **Color space:** RGB. Printful converts to CMYK internally.
 
+### Shirt color and design contrast
+
+**The design must have strong contrast against the chosen shirt color.** A design that blends into the shirt is unusable. Choose the shirt color and design colors together:
+
+- **Dark shirts** (Pepper, Black, Graphite, etc.) → design must use **light/bright colors** (white, cream, bright tones). Never put dark designs on dark shirts.
+- **Light shirts** (Ivory, White, etc.) → design must use **dark/saturated colors** (black, dark green, navy, bold colors). Never put pale or pastel designs on light shirts.
+
+Before committing, verify: "Would this design be clearly visible and readable from 5 feet away on this shirt color?" If not, either change the design colors or pick a different shirt color.
+
 ## Collections
 
 Collections are managed via Shopify automated collections, not in this repo. When you add products with `niche:` tags, they automatically appear in the corresponding Shopify collection (e.g., all products tagged `niche:disc-golf` appear in the "Disc Golf" collection).
