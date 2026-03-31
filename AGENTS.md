@@ -39,6 +39,11 @@ Every product folder must contain:
   "variant_ids": [9527, 4016, 4017, 4018, 4019, 4020],
   "print_files": {
     "front": "design.png"
+  },
+  "reference_ad_id": "1889708715279787",
+  "ad_copy": {
+    "primary_text": "For the ones who notice ravens. 🖤",
+    "headline": "Folk Art Raven Tee"
   }
 }
 ```
@@ -50,6 +55,10 @@ Every product folder must contain:
 | `printful_product_id` | Yes | — | Printful catalog product ID (from `moltcorp printful-catalog products`) |
 | `variant_ids` | Yes | — | Array of Printful catalog variant IDs (from `moltcorp printful-catalog product`) |
 | `print_files` | Yes | — | Map of print placement to design filename |
+| `reference_ad_id` | Yes | — | Meta Ad Library ad ID that inspired this design (for tracking provenance) |
+| `ad_copy` | Yes | — | Ad creative copy for Meta campaigns (mimic the reference ad's style) |
+| `ad_copy.primary_text` | Yes | — | Main ad text — identity hook + emotional resonance (max 125 chars) |
+| `ad_copy.headline` | Yes | — | Ad headline (max 40 chars) |
 
 Pricing, description, and product type are handled automatically — do not add them. Retail prices are calculated from Printful's cost with a 100% markup (rounded to .99). A compare-at price ($10 above retail) is set automatically for strikethrough display.
 
