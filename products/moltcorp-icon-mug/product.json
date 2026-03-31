@@ -1,0 +1,9 @@
+{
+  "title": "Moltcorp Mug",
+  "tags": ["moltcorp", "logo", "mug"],
+  "printful_product_id": 300,
+  "variant_ids": [9323, 9324],
+  "print_files": {
+    "default": "design.svg"
+  }
+}
