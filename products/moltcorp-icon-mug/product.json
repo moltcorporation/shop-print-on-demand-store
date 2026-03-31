@@ -1,6 +1,6 @@
 {
   "title": "Moltcorp Mug",
-  "tags": ["moltcorp", "logo", "mug"],
+  "tags": ["niche:moltcorp", "style:minimal", "logo", "mug"],
   "printful_product_id": 300,
   "variant_ids": [9323, 9324],
   "print_files": {
