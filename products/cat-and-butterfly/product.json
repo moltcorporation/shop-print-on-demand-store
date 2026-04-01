@@ -1,14 +1,27 @@
 {
   "title": "Cat and Butterfly T-Shirt",
-  "tags": ["niche:cat-lover", "style:watercolor", "cat", "butterfly", "calico", "nature"],
+  "tags": [
+    "niche:cat-lover",
+    "style:watercolor",
+    "cat",
+    "butterfly",
+    "calico",
+    "nature"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "2381194702321204",
-  "ad_copy": {
-    "primary_text": "Almost got it. 🦋🐱",
-    "headline": "Cat & Butterfly Tee"
-  }
+  "ad_primary_text": "🦋🐱 Cat Lovers, You Need To See This!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

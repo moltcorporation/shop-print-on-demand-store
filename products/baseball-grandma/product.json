@@ -1,14 +1,27 @@
 {
   "title": "Proud Baseball Grandma T-Shirt",
-  "tags": ["niche:baseball", "style:vintage", "grandma", "proud", "heart", "family"],
+  "tags": [
+    "niche:baseball",
+    "style:vintage",
+    "grandma",
+    "proud",
+    "heart",
+    "family"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1218469233561362",
-  "ad_copy": {
-    "primary_text": "Proud doesn't even begin to cover it. ⚾",
-    "headline": "Baseball Grandma Tee"
-  }
+  "ad_primary_text": "⚾👵 Baseball Grandmas — Show Your Pride!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

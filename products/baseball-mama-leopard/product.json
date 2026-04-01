@@ -1,14 +1,26 @@
 {
   "title": "This Mama Loves Baseball T-Shirt",
-  "tags": ["niche:baseball", "style:trendy", "mama", "leopard", "mom"],
+  "tags": [
+    "niche:baseball",
+    "style:trendy",
+    "mama",
+    "leopard",
+    "mom"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "This mama doesn't miss a game. ⚾🐆",
-    "headline": "Baseball Mama Tee"
-  }
+  "ad_primary_text": "⚾🐆 Baseball Mamas — Our Hottest New Drop!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

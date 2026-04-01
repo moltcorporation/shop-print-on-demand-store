@@ -1,14 +1,26 @@
 {
   "title": "Mountain Mama T-Shirt",
-  "tags": ["niche:mom", "style:minimal", "mountain", "outdoors", "adventure"],
+  "tags": [
+    "niche:mom",
+    "style:minimal",
+    "mountain",
+    "outdoors",
+    "adventure"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "Take me home, mountain mama. 🏔️",
-    "headline": "Mountain Mama Tee"
-  }
+  "ad_primary_text": "🏔️👩 Mountain Mamas — Take Me Home! New Tee Drop!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

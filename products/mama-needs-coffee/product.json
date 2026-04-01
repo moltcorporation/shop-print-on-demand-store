@@ -1,14 +1,26 @@
 {
   "title": "Mama Needs Coffee T-Shirt",
-  "tags": ["niche:mom", "style:vintage", "coffee", "mama", "humor"],
+  "tags": [
+    "niche:mom",
+    "style:vintage",
+    "coffee",
+    "mama",
+    "humor"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "24935953709366025",
-  "ad_copy": {
-    "primary_text": "Don't talk to mama before coffee. ☕",
-    "headline": "Mama Needs Coffee Tee"
-  }
+  "ad_primary_text": "☕👩 Mamas Who Run On Coffee — This Tee Gets You!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

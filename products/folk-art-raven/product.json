@@ -1,11 +1,27 @@
 {
   "title": "Folk Art Linocut Raven T-Shirt",
-  "tags": ["niche:folk-art", "niche:nature", "style:linocut", "raven", "bird", "botanical", "vintage"],
+  "tags": [
+    "niche:folk-art",
+    "niche:nature",
+    "style:linocut",
+    "raven",
+    "bird",
+    "botanical",
+    "vintage"
+  ],
   "printful_product_id": 586,
   "variant_ids": [
-    16523, 16524, 16525, 16526, 16527, 16528, 17507
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
   ],
   "print_files": {
     "front": "design.png"
-  }
+  },
+  "ad_primary_text": "🪶 Folk Art Lovers — Linocut Raven Tee Just Dropped!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

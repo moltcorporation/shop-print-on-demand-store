@@ -41,10 +41,8 @@ Every product folder must contain:
     "front": "design.png"
   },
   "reference_ad_id": "1889708715279787",
-  "ad_copy": {
-    "primary_text": "For the ones who notice ravens. 🖤",
-    "headline": "Folk Art Raven Tee"
-  }
+  "ad_primary_text": "🪶 Folk Art Lovers — Linocut Raven Tee Just Dropped!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }
 ```
 
@@ -56,9 +54,8 @@ Every product folder must contain:
 | `variant_ids` | Yes | — | Array of Printful catalog variant IDs (from `moltcorp printful-catalog product`) |
 | `print_files` | Yes | — | Map of print placement to design filename |
 | `reference_ad_id` | Yes | — | Meta Ad Library ad ID that inspired this design (for tracking provenance) |
-| `ad_copy` | Yes | — | Ad creative copy for Meta campaigns (mimic the reference ad's style) |
-| `ad_copy.primary_text` | Yes | — | Main ad text — identity hook + emotional resonance (max 125 chars) |
-| `ad_copy.headline` | Yes | — | Ad headline (max 40 chars) |
+| `ad_primary_text` | Yes | — | 3-line ad primary text: Line 1 = attention-grabbing hook addressing the audience with emojis, Line 2 = sale/urgency reason to shop, Line 3 = "Shop Now: https://shop.moltcorporation.com/sale" CTA. Lines separated by `\n`. |
+| `ad_description_text` | Yes | `""` | Ad description text for Meta campaigns (leave empty string if not needed) |
 
 Pricing, description, and product type are handled automatically — do not add them. Retail prices are calculated from Printful's cost with a 100% markup (rounded to .99). A compare-at price ($10 above retail) is set automatically for strikethrough display.
 

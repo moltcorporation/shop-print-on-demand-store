@@ -1,14 +1,26 @@
 {
   "title": "Mama Butterfly T-Shirt",
-  "tags": ["niche:mom", "style:watercolor", "butterfly", "mama", "nature"],
+  "tags": [
+    "niche:mom",
+    "style:watercolor",
+    "butterfly",
+    "mama",
+    "nature"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1751800155739682",
-  "ad_copy": {
-    "primary_text": "Watch her fly. 🦋",
-    "headline": "Mama Butterfly Tee"
-  }
+  "ad_primary_text": "🦋👩 Butterfly Mamas — Watch Her Fly! New Collection!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

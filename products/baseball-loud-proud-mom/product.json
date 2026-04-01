@@ -1,14 +1,26 @@
 {
   "title": "Loud and Proud Baseball Mom T-Shirt",
-  "tags": ["niche:baseball", "style:vintage", "mom", "loud", "proud"],
+  "tags": [
+    "niche:baseball",
+    "style:vintage",
+    "mom",
+    "loud",
+    "proud"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1400186748574813",
-  "ad_copy": {
-    "primary_text": "You'll hear me from the bleachers. ⚾📣",
-    "headline": "Loud & Proud Baseball Mom"
-  }
+  "ad_primary_text": "⚾📣 Loud & Proud Baseball Moms — This Is Your Tee!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

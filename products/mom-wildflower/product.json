@@ -1,14 +1,26 @@
 {
   "title": "Mom Wildflower T-Shirt",
-  "tags": ["niche:mom", "style:botanical", "wildflower", "floral", "nature"],
+  "tags": [
+    "niche:mom",
+    "style:botanical",
+    "wildflower",
+    "floral",
+    "nature"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1751800155739682",
-  "ad_copy": {
-    "primary_text": "Bloom where you're planted. 🌸",
-    "headline": "Mom Wildflower Tee"
-  }
+  "ad_primary_text": "🌸👩 Wildflower Mamas — Bloom Where You're Planted!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

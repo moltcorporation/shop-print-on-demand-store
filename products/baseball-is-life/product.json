@@ -1,14 +1,24 @@
 {
   "title": "Baseball Is Life T-Shirt",
-  "tags": ["niche:baseball", "style:vintage", "baseball is life"],
+  "tags": [
+    "niche:baseball",
+    "style:vintage",
+    "baseball is life"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "Baseball is life. Everything else is just details. ⚾",
-    "headline": "Baseball Is Life Tee"
-  }
+  "ad_primary_text": "⚾ Baseball Is Life — If You Get It, You Get It!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

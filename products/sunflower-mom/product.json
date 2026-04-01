@@ -1,14 +1,26 @@
 {
   "title": "Sunflower Mom T-Shirt",
-  "tags": ["niche:mom", "style:botanical", "sunflower", "floral", "nature"],
+  "tags": [
+    "niche:mom",
+    "style:botanical",
+    "sunflower",
+    "floral",
+    "nature"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [21548, 21549, 21550, 21551, 21552, 21553, 21554],
+  "variant_ids": [
+    21548,
+    21549,
+    21550,
+    21551,
+    21552,
+    21553,
+    21554
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1751800155739682",
-  "ad_copy": {
-    "primary_text": "Sunshine in human form. 🌻",
-    "headline": "Sunflower Mom Tee"
-  }
+  "ad_primary_text": "🌻👩 Sunflower Moms — Sunshine In Human Form!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

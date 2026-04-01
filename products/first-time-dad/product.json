@@ -1,14 +1,27 @@
 {
   "title": "Promoted To Dad Tee",
-  "tags": ["niche:dad", "style:vintage", "new dad", "promoted", "father", "gift"],
+  "tags": [
+    "niche:dad",
+    "style:vintage",
+    "new dad",
+    "promoted",
+    "father",
+    "gift"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "New title. Same guy. Way more love.",
-    "headline": "Promoted To Dad Tee"
-  }
+  "ad_primary_text": "👶👨 First Time Dads — Promoted & Proud! New Tee Alert!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

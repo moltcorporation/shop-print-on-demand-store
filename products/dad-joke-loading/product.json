@@ -1,14 +1,26 @@
 {
   "title": "Dad Joke Loading Tee",
-  "tags": ["niche:dad", "style:humor", "dad joke", "funny", "father"],
+  "tags": [
+    "niche:dad",
+    "style:humor",
+    "dad joke",
+    "funny",
+    "father"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "Please wait... this one is going to be good.",
-    "headline": "Dad Joke Loading Tee"
-  }
+  "ad_primary_text": "😂👨 Dad Joke Incoming — Get The Shirt Before The Punchline!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

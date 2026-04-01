@@ -1,14 +1,27 @@
 {
   "title": "Roaring Lion T-Shirt",
-  "tags": ["niche:wildlife", "style:vintage", "lion", "roaring", "power", "king"],
+  "tags": [
+    "niche:wildlife",
+    "style:vintage",
+    "lion",
+    "roaring",
+    "power",
+    "king"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1434318761720367",
-  "ad_copy": {
-    "primary_text": "Wear the roar. 🦁",
-    "headline": "Roaring Lion Tee"
-  }
+  "ad_primary_text": "🦁 Lion Lovers — Wear The Roar! New Drop!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

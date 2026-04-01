@@ -1,14 +1,26 @@
 {
   "title": "Baseball Papa T-Shirt",
-  "tags": ["niche:baseball", "style:vintage", "papa", "grandpa", "family"],
+  "tags": [
+    "niche:baseball",
+    "style:vintage",
+    "papa",
+    "grandpa",
+    "family"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1218469233561362",
-  "ad_copy": {
-    "primary_text": "Papa's watching every play. ⚾",
-    "headline": "Baseball Papa Tee"
-  }
+  "ad_primary_text": "⚾👴 Baseball Papas — Show Them Who's Watching!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

@@ -1,14 +1,26 @@
 {
   "title": "Papa Bear Tee",
-  "tags": ["niche:dad", "style:illustration", "papa bear", "father", "family"],
+  "tags": [
+    "niche:dad",
+    "style:illustration",
+    "papa bear",
+    "father",
+    "family"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "Don't mess with papa bear.",
-    "headline": "Papa Bear Tee"
-  }
+  "ad_primary_text": "🐻👨 Papa Bears — Don't Mess With Dad! New Drop!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

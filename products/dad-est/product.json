@@ -1,14 +1,26 @@
 {
   "title": "Dad Est. 2026 Tee",
-  "tags": ["niche:dad", "style:minimal", "new dad", "father", "gift"],
+  "tags": [
+    "niche:dad",
+    "style:minimal",
+    "new dad",
+    "father",
+    "gift"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "New title unlocked. Best one yet.",
-    "headline": "Dad Est. 2026 Tee"
-  }
+  "ad_primary_text": "👶👨 New Dads Class Of 2026 — Your Shirt Is Here!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

@@ -1,14 +1,26 @@
 {
   "title": "Mom Est. 2026 T-Shirt",
-  "tags": ["niche:mom", "style:minimal", "est", "2026", "new mom"],
+  "tags": [
+    "niche:mom",
+    "style:minimal",
+    "est",
+    "2026",
+    "new mom"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "Mom since 2026. 🤍",
-    "headline": "Mom Est. 2026 Tee"
-  }
+  "ad_primary_text": "👶👩 New Moms Class Of 2026 — Your Shirt Is Here!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

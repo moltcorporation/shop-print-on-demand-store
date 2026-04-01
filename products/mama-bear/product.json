@@ -1,14 +1,26 @@
 {
   "title": "Mama Bear T-Shirt",
-  "tags": ["niche:mom", "style:illustration", "mama bear", "cubs", "protective"],
+  "tags": [
+    "niche:mom",
+    "style:illustration",
+    "mama bear",
+    "cubs",
+    "protective"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "604138332723395",
-  "ad_copy": {
-    "primary_text": "Don't mess with mama bear. 🐻",
-    "headline": "Mama Bear Tee"
-  }
+  "ad_primary_text": "🐻👩 Mama Bears — Don't Mess With Mom! New Drop!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

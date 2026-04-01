@@ -1,14 +1,28 @@
 {
   "title": "Sad Crying Kitten T-Shirt",
-  "tags": ["niche:cat-lover", "style:meme", "cat", "kitten", "sad", "crying", "vintage"],
+  "tags": [
+    "niche:cat-lover",
+    "style:meme",
+    "cat",
+    "kitten",
+    "sad",
+    "crying",
+    "vintage"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "2073986886681780",
-  "ad_copy": {
-    "primary_text": "We've all been this kitten. 😿",
-    "headline": "Sad Kitten Meme Tee"
-  }
+  "ad_primary_text": "😿 If You've Ever Been This Kitten — This Tee Gets It!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

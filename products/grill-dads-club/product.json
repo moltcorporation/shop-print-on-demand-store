@@ -1,14 +1,27 @@
 {
   "title": "Grill Dads Club Tee",
-  "tags": ["niche:dad", "style:retro", "club", "grill", "bbq", "father"],
+  "tags": [
+    "niche:dad",
+    "style:retro",
+    "club",
+    "grill",
+    "bbq",
+    "father"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1855749655325907",
-  "ad_copy": {
-    "primary_text": "If the grill is hot, dad is happy.",
-    "headline": "Grill Dads Club Tee"
-  }
+  "ad_primary_text": "🔥👨 Grill Dads Club — Fire Up The New Collection!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

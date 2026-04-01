@@ -1,14 +1,25 @@
 {
   "title": "Game Day Baseball T-Shirt",
-  "tags": ["niche:baseball", "style:vintage", "game day", "varsity"],
+  "tags": [
+    "niche:baseball",
+    "style:vintage",
+    "game day",
+    "varsity"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1218469233561362",
-  "ad_copy": {
-    "primary_text": "It's game day. ⚾",
-    "headline": "Game Day Baseball Tee"
-  }
+  "ad_primary_text": "⚾🔥 It's Game Day — Rep Your Baseball Obsession!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

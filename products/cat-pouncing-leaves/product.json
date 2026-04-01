@@ -1,14 +1,27 @@
 {
   "title": "Cat Pouncing Autumn Leaves T-Shirt",
-  "tags": ["niche:cat-lover", "style:illustration", "cat", "autumn", "leaves", "black cat"],
+  "tags": [
+    "niche:cat-lover",
+    "style:illustration",
+    "cat",
+    "autumn",
+    "leaves",
+    "black cat"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1317424920012319",
-  "ad_copy": {
-    "primary_text": "Leaf season is cat season. 🍂🐱",
-    "headline": "Cat Pouncing Leaves Tee"
-  }
+  "ad_primary_text": "🍂🐈‍⬛ Fall Is Here And So Are New Cat Tees!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

@@ -1,14 +1,26 @@
 {
   "title": "Boy Dad Tee",
-  "tags": ["niche:dad", "style:varsity", "boy dad", "son", "father"],
+  "tags": [
+    "niche:dad",
+    "style:varsity",
+    "boy dad",
+    "son",
+    "father"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "Raising the boys. Living the chaos.",
-    "headline": "Boy Dad Tee"
-  }
+  "ad_primary_text": "👦👨 Boy Dads — We Made Your New Favorite Shirt!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

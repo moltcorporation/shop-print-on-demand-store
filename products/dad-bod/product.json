@@ -1,14 +1,26 @@
 {
   "title": "Dad Bod Tee",
-  "tags": ["niche:dad", "style:humor", "dad bod", "funny", "father"],
+  "tags": [
+    "niche:dad",
+    "style:humor",
+    "dad bod",
+    "funny",
+    "father"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "Built for comfort, not for speed.",
-    "headline": "Dad Bod Tee"
-  }
+  "ad_primary_text": "💪😂 Dad Bod & Proud — This Shirt Gets It!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

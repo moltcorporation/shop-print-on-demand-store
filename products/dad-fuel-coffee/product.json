@@ -1,14 +1,26 @@
 {
   "title": "Dad Fuel Tee",
-  "tags": ["niche:dad", "style:vintage", "coffee", "father", "funny"],
+  "tags": [
+    "niche:dad",
+    "style:vintage",
+    "coffee",
+    "father",
+    "funny"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
-  "ad_copy": {
-    "primary_text": "Runs on coffee. Powered by dad strength.",
-    "headline": "Dad Fuel Tee"
-  }
+  "ad_primary_text": "☕👨 Coffee-Powered Dads — Dad Fuel Tee Just Dropped!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

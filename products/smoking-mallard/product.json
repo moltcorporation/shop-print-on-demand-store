@@ -1,11 +1,27 @@
 {
   "title": "Smoking Mallard Duck T-Shirt",
-  "tags": ["niche:animal-humor", "niche:duck", "style:photorealistic", "mallard", "funny", "smoking", "vintage"],
+  "tags": [
+    "niche:animal-humor",
+    "niche:duck",
+    "style:photorealistic",
+    "mallard",
+    "funny",
+    "smoking",
+    "vintage"
+  ],
   "printful_product_id": 586,
   "variant_ids": [
-    17700, 17701, 17702, 17703, 17704, 17705, 17706
+    17700,
+    17701,
+    17702,
+    17703,
+    17704,
+    17705,
+    17706
   ],
   "print_files": {
     "front": "design.png"
-  }
+  },
+  "ad_primary_text": "🦆😎 Duck Lovers — The Smoking Mallard Is Here!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

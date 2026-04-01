@@ -1,14 +1,28 @@
 {
   "title": "Two Cats Galaxy Vintage T-Shirt",
-  "tags": ["niche:cat-lover", "style:vintage", "cat", "galaxy", "space", "cosmic", "stars"],
+  "tags": [
+    "niche:cat-lover",
+    "style:vintage",
+    "cat",
+    "galaxy",
+    "space",
+    "cosmic",
+    "stars"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "877094688107287",
-  "ad_copy": {
-    "primary_text": "Written in the stars. ✨🐱",
-    "headline": "Galaxy Cats Vintage Tee"
-  }
+  "ad_primary_text": "✨🐱 Space Cats Are Here — Galaxy Cat Lovers Rejoice!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }

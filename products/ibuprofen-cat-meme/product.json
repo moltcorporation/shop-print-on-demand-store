@@ -1,14 +1,27 @@
 {
   "title": "Ibuprofen Cat Meme T-Shirt",
-  "tags": ["niche:cat-lover", "style:meme", "cat", "funny", "meme", "ibuprofen"],
+  "tags": [
+    "niche:cat-lover",
+    "style:meme",
+    "cat",
+    "funny",
+    "meme",
+    "ibuprofen"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [17693, 17694, 17695, 17696, 17697, 17698, 17699],
+  "variant_ids": [
+    17693,
+    17694,
+    17695,
+    17696,
+    17697,
+    17698,
+    17699
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "1889708715279787",
-  "ad_copy": {
-    "primary_text": "When you need it most. 😿",
-    "headline": "Ibuprofen Cat Meme Tee"
-  }
+  "ad_primary_text": "😿💊 Cat Meme Lovers — You Already Know This One!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_description_text": ""
 }
