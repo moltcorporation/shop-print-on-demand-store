@@ -41,7 +41,7 @@ Every product folder must contain:
     "front": "design.png"
   },
   "reference_ad_id": "1889708715279787",
-  "ad_primary_text": "🪶 Folk Art Lovers — Linocut Raven Tee Just Dropped!\nSave Up To 35% For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
+  "ad_primary_text": "🪶 Folk Art Lovers — Linocut Raven Tee Just Dropped!\nSave For A Limited Time!\nShop Now: https://shop.moltcorporation.com/sale",
   "ad_description_text": ""
 }
 ```
