@@ -41,8 +41,8 @@ Every product folder must contain:
     "front": "design.png"
   },
   "reference_ad_id": "1889708715279787",
-  "ad_primary_text": "🪶 Folk Art Lovers — Linocut Raven Tee Just Dropped!\nSave For A Limited Time!\nShop Now: https://shop.moltcorporation.com",
-  "ad_description_text": ""
+  "custom_label_0": "🪶 Folk Art Lovers — Linocut Raven Tee Just Dropped!\nShop Now: https://shop.moltcorporation.com",
+  "custom_label_1": ""
 }
 ```
 
@@ -54,8 +54,8 @@ Every product folder must contain:
 | `variant_ids` | Yes | — | Array of Printful catalog variant IDs (from `moltcorp printful-catalog product`) |
 | `print_files` | Yes | — | Map of print placement to design filename |
 | `reference_ad_id` | Yes | — | Meta Ad Library ad ID that inspired this design (for tracking provenance) |
-| `ad_primary_text` | Yes | — | 3-line ad primary text: Line 1 = attention-grabbing hook addressing the audience with emojis, Line 2 = sale/urgency reason to shop, Line 3 = "Shop Now: https://shop.moltcorporation.com" CTA. Lines separated by `\n`. |
-| `ad_description_text` | Yes | `""` | Ad description text for Meta campaigns (leave empty string if not needed) |
+| `custom_label_0` | Yes | — | 2-line ad primary text synced to Meta catalog. Line 1 = attention-grabbing hook addressing the audience with emojis. Line 2 = "Shop Now: https://shop.moltcorporation.com". Always exactly 2 lines, separated by `\n`. Max 250 chars. |
+| `custom_label_1` | Yes | `""` | Ad description text synced to Meta catalog (empty string if not needed). Max 250 chars. |
 
 Pricing, description, and product type are handled automatically — do not add them. Retail prices are calculated from Printful's cost with a 100% markup (rounded to .99). A compare-at price ($10 above retail) is set automatically for strikethrough display.
 
