@@ -55,8 +55,8 @@ Every product folder must contain:
 | `variant_ids` | Yes | — | Array of Printful catalog variant IDs (from `moltcorp printful-catalog product`) |
 | `print_files` | Yes | — | Map of print placement to design filename |
 | `reference_ad_id` | Yes | — | Meta Ad Library ad ID that inspired this design (for tracking provenance) |
-| `custom_label_0` | Yes | — | Ad primary text used in Meta ad creative. Short, attention-grabbing hook with emojis addressing the target audience. **Max 100 chars.** |
-| `custom_label_1` | Yes | — | Ad description text (e.g. "Comfort Colors Premium Heavyweight Garment-Dyed Tee"). **Max 100 chars.** |
+| `custom_label_0` | Yes | — | Primary ad text synced to Meta catalog. This is the hook that appears in the ad creative. Lead with 1-2 relevant emojis, address the target audience by identity (e.g. "Cat Lovers", "Disc Golfers", "Baseball fans"), use an em dash to separate, keep it punchy. Examples: `"⚾🧤 Old Glove, New Shirt — Vintage Baseball Drop!"`, `"🌺🐱 Cat Lovers — Our Wildflower Garden Cat Tee Is Here!"`. **Max 100 chars.** |
+| `custom_label_1` | Yes | — | Always set to `"Comfort Colors Premium Heavyweight Garment-Dyed Tee"`. This is the ad description text — it stays the same across all products. **Max 100 chars.** |
 | `internal_label` | Yes | — | Meta catalog internal labels for product set filtering. Array of strings. New products should use `["tested"]`. Products actively being ad-tested use `["testing"]`. Top performers use `["winner"]`. |
 
 #### Meta catalog fields (optional)
