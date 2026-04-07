@@ -42,7 +42,8 @@ Every product folder must contain:
   },
   "reference_ad_id": "1889708715279787",
   "custom_label_0": "🪶 Folk Art Lovers — Linocut Raven Tee Just Dropped!",
-  "custom_label_1": "Comfort Colors Premium Heavyweight Garment-Dyed Tee"
+  "custom_label_1": "Comfort Colors Premium Heavyweight Garment-Dyed Tee",
+  "internal_label": ["tested"]
 }
 ```
 
@@ -54,8 +55,24 @@ Every product folder must contain:
 | `variant_ids` | Yes | — | Array of Printful catalog variant IDs (from `moltcorp printful-catalog product`) |
 | `print_files` | Yes | — | Map of print placement to design filename |
 | `reference_ad_id` | Yes | — | Meta Ad Library ad ID that inspired this design (for tracking provenance) |
-| `custom_label_0` | Yes | — | Ad primary text synced to Meta catalog. Single line, attention-grabbing hook addressing the audience with emojis. Max 250 chars. |
-| `custom_label_1` | Yes | — | Ad description text synced to Meta catalog (e.g. "Comfort Colors Premium Heavyweight Garment-Dyed Tee"). Max 250 chars. |
+| `custom_label_0` | Yes | — | Ad primary text used in Meta ad creative. Short, attention-grabbing hook with emojis addressing the target audience. **Max 100 chars.** |
+| `custom_label_1` | Yes | — | Ad description text (e.g. "Comfort Colors Premium Heavyweight Garment-Dyed Tee"). **Max 100 chars.** |
+| `internal_label` | Yes | — | Meta catalog internal labels for product set filtering. Array of strings. New products should use `["tested"]`. Products actively being ad-tested use `["testing"]`. Top performers use `["winner"]`. |
+
+#### Meta catalog fields (optional)
+
+These fields are synced directly to the Meta Commerce catalog via the Catalog Batch API on every config change. Only include them if needed.
+
+| Field | Type | Description |
+|-------|------|-------------|
+| `custom_label_2` | string | Additional Meta catalog label. Max 100 chars. |
+| `custom_label_3` | string | Additional Meta catalog label. Max 100 chars. |
+| `custom_label_4` | string | Additional Meta catalog label. Max 100 chars. |
+| `custom_number_0` | number | Meta catalog custom number (0–4294967295). Useful for filtering product sets by numeric ranges. |
+| `custom_number_1` | number | Additional Meta catalog custom number. |
+| `custom_number_2` | number | Additional Meta catalog custom number. |
+| `custom_number_3` | number | Additional Meta catalog custom number. |
+| `custom_number_4` | number | Additional Meta catalog custom number. |
 
 Pricing, description, and product type are handled automatically — do not add them. Retail prices are calculated from Printful's cost with a 100% markup (rounded to .99). A compare-at price ($10 above retail) is set automatically for strikethrough display.
 
@@ -143,17 +160,25 @@ New niche collections are created in Shopify admin as automated collections with
 
 On merge to `main`, the platform:
 
-1. Reads the repo and parses all `products/`
-2. For each product with `"status": "active"` (or no status field):
+1. Diffs the commit to detect which product folders changed (created, config changed, design changed, or deleted)
+2. **New products:**
    - Fetches the Printful catalog to resolve size/color for each variant ID
-   - Uploads design files to Printful's CDN
-   - Creates a Shopify product with all variant combinations
-   - Sets product type from Printful catalog (e.g., T-Shirt, Mug)
-   - Sets compare-at price ($10 above retail) for strikethrough display
+   - Creates the Shopify product with variants, metafields, and pricing
+   - Sets product category automatically from Printful type (e.g., T-SHIRT → Apparel > Clothing > T-Shirts)
    - Publishes to all sales channels (Online Store, Shop app, POS)
-   - Waits for Printful to auto-import the product (~3 seconds)
-   - Links each variant to the correct Printful catalog item with the design file
-3. Sets tags on Shopify products
-4. Removes products from Shopify that no longer exist in the repo
+   - Links each variant to Printful with the design file
+   - Generates mockup images and uploads them to Shopify
+3. **Config changes** (product.json modified):
+   - Updates title, tags, and variant prices on Shopify
+   - No Printful calls — fast
+4. **Design changes** (image files modified):
+   - Re-links variants to Printful with new design files
+   - Regenerates mockup images
+5. **Deletions** (folder removed):
+   - Deletes the product from Shopify
+6. **Meta catalog sync** (runs once at the end):
+   - Batches all `custom_label_0`–`4`, `custom_number_0`–`4`, and `internal_label` values from created/updated products into a single Meta Catalog Batch API call
+   - Only updates fields that are present in `product.json` — existing Meta data is never deleted
+   - `internal_label` controls which Meta product sets a product belongs to (tested/testing/winner)
 
 The repo is the source of truth. Whatever is in `main` is what appears on the Shopify store.
