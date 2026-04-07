@@ -24,13 +24,7 @@
   "reference_ad_id": "1855749655325907",
   "custom_label_0": "🔥👨 Grill Dads Club — Fire Up The New Collection!",
   "custom_label_1": "Comfort Colors Premium Heavyweight Garment-Dyed Tee",
-  "custom_label_2": "TEST label two",
-  "custom_label_3": "TEST label three",
-  "custom_label_4": "TEST label four",
-  "custom_number_0": 2025,
-  "custom_number_1": 100,
-  "custom_number_2": 42,
-  "custom_number_3": 7,
-  "custom_number_4": 999,
-  "internal_label": ["tester"]
+  "internal_label": [
+    "tested"
+  ]
 }

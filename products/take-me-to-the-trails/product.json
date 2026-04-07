@@ -1,12 +1,31 @@
 {
   "title": "Take Me to the Trails",
-  "tags": ["niche:hiking", "style:vintage", "hiking", "mountains", "outdoors", "retro", "trails"],
+  "tags": [
+    "niche:hiking",
+    "style:vintage",
+    "hiking",
+    "mountains",
+    "outdoors",
+    "retro",
+    "trails"
+  ],
   "printful_product_id": 586,
-  "variant_ids": [16523, 16524, 16525, 16526, 16527, 16528, 17507],
+  "variant_ids": [
+    16523,
+    16524,
+    16525,
+    16526,
+    16527,
+    16528,
+    17507
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
   "custom_label_0": "🌄 Take Me to the Trails — Retro Sunset Mountain Tee for Hikers & Outdoor Adventurers",
-  "custom_label_1": "Comfort Colors Premium Heavyweight Garment-Dyed Tee"
+  "custom_label_1": "Comfort Colors Premium Heavyweight Garment-Dyed Tee",
+  "internal_label": [
+    "tested"
+  ]
 }
