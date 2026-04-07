@@ -1,0 +1,7 @@
+{
+  "title": "Disc Golf",
+  "description": "<p>Premium disc golf tees for players who live for the chains.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:disc-golf" }
+  ]
+}

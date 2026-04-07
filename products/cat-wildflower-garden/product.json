@@ -9,12 +9,23 @@
     "nature"
   ],
   "printful_product_id": 586,
-  "variant_ids": [16527, 16528, 17507, 16525, 16524, 16523, 16526],
+  "variant_ids": [
+    16527,
+    16528,
+    17507,
+    16525,
+    16524,
+    16523,
+    16526
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
   "custom_label_0": "🌺🐱 Cat Lovers — Our Wildflower Garden Cat Tee Is Here!",
   "custom_label_1": "Comfort Colors Premium Heavyweight Garment-Dyed Tee",
-  "internal_label": ["testing"]
+  "internal_label": [
+    "testing"
+  ],
+  "description": "<p>The Cat in Wildflower Garden tee — a beautifully illustrated design made for cat lovers.</p><p>Printed on a Comfort Colors 1717 heavyweight tee — 100% ring-spun cotton, garment-dyed for a soft, vintage feel and a relaxed fit that gets better with every wash.</p><p><strong>Sizing:</strong> This shirt runs relaxed and oversized. Order your usual size for a relaxed look, or size down for a more fitted feel.</p>"
 }

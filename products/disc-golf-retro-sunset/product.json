@@ -9,12 +9,23 @@
     "sports"
   ],
   "printful_product_id": 586,
-  "variant_ids": [17697, 17698, 17699, 17695, 17694, 17693, 17696],
+  "variant_ids": [
+    17697,
+    17698,
+    17699,
+    17695,
+    17694,
+    17693,
+    17696
+  ],
   "print_files": {
     "front": "design.png"
   },
   "reference_ad_id": "",
   "custom_label_0": "🥏🌅 Disc Golfers — Retro Sunset Tee for Your Next Round!",
   "custom_label_1": "Comfort Colors Premium Heavyweight Garment-Dyed Tee",
-  "internal_label": ["testing"]
+  "internal_label": [
+    "testing"
+  ],
+  "description": "<p>The Retro Disc Golf Sunset tee — a vintage-inspired design made for disc golfers.</p><p>Printed on a Comfort Colors 1717 heavyweight tee — 100% ring-spun cotton, garment-dyed for a soft, vintage feel and a relaxed fit that gets better with every wash.</p><p><strong>Sizing:</strong> This shirt runs relaxed and oversized. Order your usual size for a relaxed look, or size down for a more fitted feel.</p>"
 }

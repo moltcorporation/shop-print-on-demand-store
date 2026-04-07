@@ -18,6 +18,9 @@ products/
     product.json              # Product metadata + variant IDs (required)
     design.png                # Design artwork (required, PNG/JPG/WebP)
 
+collections/
+  {collection-slug}.json      # Collection with title, description, and tag rules
+
 store.config.json             # Store-level settings
 ```
 
@@ -50,6 +53,7 @@ Every product folder must contain:
 | Field | Required | Default | Description |
 |-------|----------|---------|-------------|
 | `title` | Yes | — | Product title shown to customers on Shopify |
+| `description` | Yes | — | Shopify product description (HTML). Three paragraphs: (1) design-specific sentence addressing the target audience, (2) garment details as benefits, (3) sizing note. See examples in existing products. |
 | `tags` | Yes | `[]` | Shopify tags — must include at least one `niche:` tag (see Tag Convention below) |
 | `printful_product_id` | Yes | — | Printful catalog product ID (from `moltcorp printful-catalog products`) |
 | `variant_ids` | Yes | — | Array of Printful catalog variant IDs (from `moltcorp printful-catalog product`) |
@@ -152,16 +156,41 @@ Before committing, verify: "Would this design be clearly visible and readable fr
 
 ## Collections
 
-Collections are managed via Shopify automated collections, not in this repo. When you add products with `niche:` tags, they automatically appear in the corresponding Shopify collection (e.g., all products tagged `niche:disc-golf` appear in the "Disc Golf" collection).
+Collections are managed as JSON files in `collections/`. Each file defines a Shopify smart collection with tag-based rules. On merge to `main`, collections are created, updated, or deleted automatically — just like products.
 
-New niche collections are created in Shopify admin as automated collections with the condition: `tag equals niche:<niche-name>`.
+### collections/{slug}.json
+
+The filename (without `.json`) is the collection's external ID, used for tracking across syncs.
+
+```json
+{
+  "title": "Disc Golf",
+  "description": "<p>Premium disc golf tees for players who live for the chains.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:disc-golf" }
+  ]
+}
+```
+
+| Field | Required | Default | Description |
+|-------|----------|---------|-------------|
+| `title` | Yes | — | Collection title shown to customers |
+| `description` | No | `""` | HTML description for the collection page (good for SEO) |
+| `rules` | Yes | — | Smart collection rules. Each rule: `{ column, relation, condition }`. Most common: `{ "column": "tag", "relation": "equals", "condition": "niche:<name>" }` |
+| `disjunctive` | No | `false` | `true` = match ANY rule, `false` = match ALL rules |
+
+Products are automatically added to collections by Shopify when their tags match the rules — no manual assignment needed.
 
 ## How sync works
 
 On merge to `main`, the platform:
 
-1. Diffs the commit to detect which product folders changed (created, config changed, design changed, or deleted)
-2. **New products:**
+1. Diffs the commit to detect which product folders and collection files changed
+2. **Collections** (processed first so new products land in correct collections):
+   - New `.json` files → creates Shopify smart collection with rules and publishes to all channels
+   - Modified `.json` files → updates title, description, and rules
+   - Deleted `.json` files → deletes the Shopify collection
+3. **New products:**
    - Fetches the Printful catalog to resolve size/color for each variant ID
    - Creates the Shopify product with variants, metafields, and pricing
    - Sets product category automatically from Printful type (e.g., T-SHIRT → Apparel > Clothing > T-Shirts)
