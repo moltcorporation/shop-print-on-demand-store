@@ -1,0 +1,7 @@
+{
+  "title": "Mom",
+  "description": "<p>Tees that get it — because mom life is the real life.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:mom" }
+  ]
+}

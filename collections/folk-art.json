@@ -1,0 +1,7 @@
+{
+  "title": "Folk Art",
+  "description": "<p>Linocut and woodblock-inspired designs with handcrafted character.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:folk-art" }
+  ]
+}

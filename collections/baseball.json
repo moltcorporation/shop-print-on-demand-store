@@ -1,0 +1,7 @@
+{
+  "title": "Baseball",
+  "description": "<p>Tees for the players, parents, and fans who live for the game.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:baseball" }
+  ]
+}

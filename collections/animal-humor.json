@@ -1,0 +1,7 @@
+{
+  "title": "Animal Humor",
+  "description": "<p>Funny animal tees that speak for themselves.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:animal-humor" }
+  ]
+}

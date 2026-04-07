@@ -1,0 +1,7 @@
+{
+  "title": "Duck",
+  "description": "<p>Tees for people who just really like ducks.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:duck" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Golf",
+  "description": "<p>Tees for golfers who take the game seriously and themselves not at all.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:golf" }
+  ]
+}

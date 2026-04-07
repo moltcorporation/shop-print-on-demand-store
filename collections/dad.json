@@ -1,0 +1,7 @@
+{
+  "title": "Dad",
+  "description": "<p>Tees that say what every dad is already thinking.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:dad" }
+  ]
+}

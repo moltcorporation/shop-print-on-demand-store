@@ -1,0 +1,7 @@
+{
+  "title": "Hiking",
+  "description": "<p>Tees for trail lovers and summit chasers.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:hiking" }
+  ]
+}
