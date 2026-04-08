@@ -1,0 +1,7 @@
+{
+  "title": "Kayaking",
+  "description": "<p>Tees for kayakers and paddlers.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:kayaking" }
+  ]
+}

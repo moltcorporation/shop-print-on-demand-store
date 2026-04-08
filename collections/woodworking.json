@@ -1,0 +1,7 @@
+{
+  "title": "Woodworking",
+  "description": "<p>Tees for woodworkers, carpenters, and sawdust collectors.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:woodworking" }
+  ]
+}

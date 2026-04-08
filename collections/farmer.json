@@ -1,0 +1,7 @@
+{
+  "title": "Farmer",
+  "description": "<p>Tees for farmers, ranchers, and country living.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:farmer" }
+  ]
+}

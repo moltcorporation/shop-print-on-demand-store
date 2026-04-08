@@ -1,0 +1,7 @@
+{
+  "title": "Bowling",
+  "description": "<p>Tees for bowlers and league night regulars.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:bowling" }
+  ]
+}

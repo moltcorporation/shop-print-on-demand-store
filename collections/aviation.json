@@ -1,0 +1,7 @@
+{
+  "title": "Aviation",
+  "description": "<p>Tees for pilots, aviation enthusiasts, and sky lovers.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:aviation" }
+  ]
+}

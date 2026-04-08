@@ -1,0 +1,7 @@
+{
+  "title": "Quilting",
+  "description": "<p>Tees for quilters and sewing enthusiasts.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:quilting" }
+  ]
+}

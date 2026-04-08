@@ -1,0 +1,7 @@
+{
+  "title": "D&D",
+  "description": "<p>Tees for dungeon masters and tabletop RPG players.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:dnd" }
+  ]
+}

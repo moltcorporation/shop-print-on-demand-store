@@ -1,0 +1,7 @@
+{
+  "title": "Camping",
+  "description": "<p>Tees for campers and outdoor adventurers.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:camping" }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Electrician",
+  "description": "<p>Tees for electricians and linemen who keep the lights on.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:electrician" }
+  ]
+}
