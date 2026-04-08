@@ -1,0 +1,7 @@
+{
+  "title": "Mechanic",
+  "description": "<p>Tees for mechanics, gearheads, and anyone who'd rather be under the hood.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:mechanic" }
+  ]
+}
