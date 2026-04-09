@@ -1,0 +1,7 @@
+{
+  "title": "Firefighter",
+  "description": "<p>Tees for firefighters and first responders.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:firefighter" }
+  ]
+}

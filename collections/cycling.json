@@ -1,0 +1,7 @@
+{
+  "title": "Cycling",
+  "description": "<p>Tees for cyclists and bicycle lovers.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:cycling" }
+  ]
+}

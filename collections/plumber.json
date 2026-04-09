@@ -1,0 +1,7 @@
+{
+  "title": "Plumber",
+  "description": "<p>Tees for plumbers and pipe fitters.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:plumber" }
+  ]
+}

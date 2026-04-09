@@ -1,0 +1,7 @@
+{
+  "title": "Vinyl",
+  "description": "<p>Tees for vinyl record collectors and music lovers.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:vinyl" }
+  ]
+}

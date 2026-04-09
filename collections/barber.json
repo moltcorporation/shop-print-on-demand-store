@@ -1,0 +1,7 @@
+{
+  "title": "Barber",
+  "description": "<p>Tees for barbers and hairstylists.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:barber" }
+  ]
+}

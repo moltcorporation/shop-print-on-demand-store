@@ -1,0 +1,7 @@
+{
+  "title": "Metal Detecting",
+  "description": "<p>Tees for metal detectorists and treasure hunters.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:metal-detecting" }
+  ]
+}
