@@ -1,0 +1,7 @@
+{
+  "title": "Coffee",
+  "description": "<p>Tees for people who take their first cup of the day seriously.</p>",
+  "rules": [
+    { "column": "tag", "relation": "equals", "condition": "niche:coffee" }
+  ]
+}
